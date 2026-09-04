@@ -1,6 +1,6 @@
-def class ()
+def call ()
 {
   echo 'build code started..'
-  docker build -t my-notes-app:latest .
-  echo 'build code finished..'
+  sh 'docker build -t my-notes-app:latest .'
+  echo 'build code finished..'..'
 }
